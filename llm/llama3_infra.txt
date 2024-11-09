@@ -1,0 +1,41 @@
+Llama 3 405B
+
+16000 H100 GPUs
+
+
+
+Compute
+
+Meta Grand Teton AI server platform, 700W TDP, 80GB HBM3, 8 GPUs connected via NVLink, 2 CPUs, MAST
+
+
+
+Storage
+
+240PB SSD, 7500 servers
+
+2TB/s IO peak 7TB/s
+
+
+
+Network
+
+400 Gbps
+
+Larger models: RDMA over Converged Ethernet (RoCE)
+
+Smaller models: Nvidia Quantum2 Infiniband fabric
+
+
+
+3 layer Clos
+
+1 rack, 16 GPUs, 2 servers, 1 switch
+
+
+
+192 racks 7:1 cluster switches
+
+
+
+TP PP CP DP
