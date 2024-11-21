@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+*.bkp
+__pycache__
+*.trt
+*env
+runs
+*.json

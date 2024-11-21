@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-05-25T14:56:33.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="nuvmieJt0Fq6u-zI1cKR" version="24.1.0" type="device">
+  <diagram name="第 1 页" id="LNhqCl8ab5pHsk8NkAdL">
+    <mxGraphModel dx="734" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-1" value="感知&lt;div&gt;Perception&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-2" value="决策&lt;div&gt;Decision&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-3" value="认知&lt;div&gt;Cognition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-4" value="执行&lt;div&gt;Action&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-5" value="记忆&lt;div&gt;Memory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-6" value="上下文&lt;div&gt;Context&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-7" value="状态机&lt;div&gt;State Machine&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="390" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-8" value="&lt;div&gt;有向无环图&lt;/div&gt;DAG" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="250" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yU0fAfQDo2WwsPi-n9g-9" value="&lt;div&gt;规则引擎&lt;/div&gt;Rule Engine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

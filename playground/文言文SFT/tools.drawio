@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="HU2Kxq767B70V0qttp2-">
+    <mxGraphModel dx="675" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.857;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-34" target="t_Ek7OQQBxJsokdXxS2B-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-34" value="文言文模型微调和量化脚本" style="whiteSpace=wrap;verticalAlign=bottom;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;strokeWidth=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="190" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-36" target="t_Ek7OQQBxJsokdXxS2B-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-36" value="文言文语料" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="120" />
+              <mxPoint x="360" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-38" value="文言文训练集" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#FF3399;fontColor=#393C56;strokeWidth=2;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-40" target="t_Ek7OQQBxJsokdXxS2B-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-40" value="训练集生成脚本" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-41" value="古文Finetune" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="335" y="201" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-42" value="4位量化" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="465" y="201" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-44" target="t_Ek7OQQBxJsokdXxS2B-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-44" value="预训练模型&lt;div style=&quot;font-size: 14px;&quot;&gt;Meta-Llama-3.1-8B&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="90" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#333333;" parent="1" source="t_Ek7OQQBxJsokdXxS2B-46" target="t_Ek7OQQBxJsokdXxS2B-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-46" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;文言文模型&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FF3399;fontColor=#FFFFFF;strokeWidth=2;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-47" value="unsloth" style="rounded=0;whiteSpace=wrap;fillColor=#F45B69;fontColor=#E4FDE1;strokeColor=#028090;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="335" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-48" value="llama.cpp" style="rounded=0;whiteSpace=wrap;fillColor=#F45B69;fontColor=#E4FDE1;strokeColor=#028090;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="465" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-49" value="Colab" style="rounded=0;whiteSpace=wrap;verticalAlign=top;fillColor=#BC6C25;fontColor=#FEFAE0;strokeColor=#DDA15E;fontSize=18;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="310" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-50" value="Github" style="rounded=0;whiteSpace=wrap;fillColor=#BC6C25;fontColor=#FEFAE0;strokeColor=#DDA15E;fontSize=18;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-51" value="Hugging Face" style="rounded=0;whiteSpace=wrap;fillColor=#BC6C25;fontColor=#FEFAE0;strokeColor=#DDA15E;fontSize=18;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="20" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-52" value="PC" style="rounded=0;whiteSpace=wrap;verticalAlign=top;fillColor=#BC6C25;fontColor=#FEFAE0;strokeColor=#DDA15E;fontSize=18;labelBackgroundColor=none;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="310" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-53" value=" Jupyter Notebook " style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="344" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-54" value="NVIDIA Tesla T4" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="380" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-55" value="LM Studio" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="344" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Ek7OQQBxJsokdXxS2B-56" value="CPU" style="rounded=0;whiteSpace=wrap;fontFamily=Liu Jian Mao Cao;fontSize=14;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
