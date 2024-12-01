@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="x8BklIuFlCDCuFzLZXhw">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oNX1s3bklzKFaENSkbFV-33" value="Autogen" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=0;fontFamily=Knewave;align=center;" parent="1" vertex="1">
+          <mxGeometry x="26" y="202.5" width="464" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-21" value="UserProxy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#647687;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="33" y="212" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-36" value="Prompt" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#647687;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="235" width="179" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="oNX1s3bklzKFaENSkbFV-21" target="oNX1s3bklzKFaENSkbFV-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" parent="1" source="oNX1s3bklzKFaENSkbFV-23" target="oNX1s3bklzKFaENSkbFV-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-23" value="AssistantAgent" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="341" y="212" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-25" value="Q" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="353" y="319" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-26" value="A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="423" y="319" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-27" value="TERMINATE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#647687;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="112" y="262.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-28" value="CONTINUE" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#647687;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="112" y="290" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-29" value="LangChain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=0;fontFamily=Knewave;align=center;" parent="1" vertex="1">
+          <mxGeometry x="26" y="357" width="464" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-30" value="ChromaDB" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="33" y="367" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-31" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="341" y="367" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-32" value="OpenAI" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="188" y="367" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-34" value="GPT-4" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="224" y="235" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-35" value="solved " style="rhombus;whiteSpace=wrap;fillColor=#647687;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="45" y="258" width="67" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-38" value="Config" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#76608a;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="346" y="236.5" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#C73500;fontColor=default;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#fa6800;entryX=0.768;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oNX1s3bklzKFaENSkbFV-24" target="oNX1s3bklzKFaENSkbFV-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="292" as="sourcePoint" />
+            <mxPoint x="383" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#C73500;fontColor=default;fillColor=#fa6800;entryX=0.625;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="oNX1s3bklzKFaENSkbFV-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="356" as="sourcePoint" />
+            <mxPoint x="428" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-24" value="Function call" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#76608a;strokeColor=#FFFFFF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="353" y="282" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="oNX1s3bklzKFaENSkbFV-40" target="oNX1s3bklzKFaENSkbFV-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-40" value="&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; text-wrap: nowrap;&quot;&gt;1. What is Uniswap?&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-family: &amp;quot;Comic Sans MS&amp;quot;; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; text-wrap: nowrap;&quot;&gt;2. What are the main changes in Uniswap version 3?&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-family: &amp;quot;Comic Sans MS&amp;quot;; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; text-wrap: nowrap;&quot;&gt;3. How to use Uniswap?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontColor=#333333;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="26.5" y="125" width="293" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNX1s3bklzKFaENSkbFV-42" value="chat" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="177" y="179.5" width="41" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
