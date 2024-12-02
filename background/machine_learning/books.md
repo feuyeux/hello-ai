@@ -30,11 +30,3 @@
 1. 大规模语言模型：从理论到实践 <https://intro-llm.github.io/>
 2. 大语言模型：原理与工程实践 <https://llmbook-zh.github.io/>
 3. 李飞飞报告 <https://aiindex.stanford.edu/report/>
-
-### 4 强化学习的数学原理
-
-- Github：<https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning>
-- Bilibili channel <https://space.bilibili.com/2044042934/channel/collectiondetail?sid=748665>
-- Youtube channel <https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists>
-- PDF和课件网盘合集下载：<https://pan.quark.cn/s/818cbec587ab>
-- 中国大学慕课：<https://www.icourse163.org/course/XHUN-1470436188>
