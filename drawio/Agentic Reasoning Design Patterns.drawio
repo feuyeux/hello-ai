@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="5S9uLElGP0To5B5OSH1_">
+    <mxGraphModel dx="3124" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D2e03eudcRRNmcST-73G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#333333;fontColor=default;fontFamily=Monaco;fontSize=18;strokeWidth=2;" parent="1" source="D2e03eudcRRNmcST-73G-1" target="D2e03eudcRRNmcST-73G-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#333333;fontColor=default;fontFamily=Monaco;fontSize=18;strokeWidth=2;" parent="1" source="D2e03eudcRRNmcST-73G-1" target="D2e03eudcRRNmcST-73G-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#333333;fontColor=default;fontFamily=Monaco;fontSize=18;strokeWidth=2;" parent="1" source="D2e03eudcRRNmcST-73G-1" target="D2e03eudcRRNmcST-73G-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-1" value="Planning Pattern&#xa;规划" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-297" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-2" value="Tool Use Pattern&#xa;工具使用" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-553" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-3" value="Multi-agent Pattern&#xa;多智能体" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-4" value="Reflection Pattern&#xa;反思" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-6" value="ReAct Pattern&#xa;推理+行动" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-297" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-10" value="CoT Pattern&#xa; 思维链" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-533" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;strokeWidth=2;fontSize=18;" parent="1" source="D2e03eudcRRNmcST-73G-13" target="D2e03eudcRRNmcST-73G-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;strokeWidth=2;fontSize=18;" parent="1" source="D2e03eudcRRNmcST-73G-13" target="D2e03eudcRRNmcST-73G-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#333333;strokeWidth=2;fontSize=18;" parent="1" source="D2e03eudcRRNmcST-73G-13" target="D2e03eudcRRNmcST-73G-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;strokeWidth=2;fontSize=18;" parent="1" source="D2e03eudcRRNmcST-73G-13" target="D2e03eudcRRNmcST-73G-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-13" value="Agentic Reasoning Design Patterns&#xa;智能体推理设计模式" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="20" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2e03eudcRRNmcST-73G-19" value="ReWOO Pattern&#xa;无观察推理" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-57" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
