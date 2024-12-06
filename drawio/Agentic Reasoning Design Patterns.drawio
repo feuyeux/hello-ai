@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="第 1 页" id="5S9uLElGP0To5B5OSH1_">
-    <mxGraphModel dx="3124" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2258" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,21 @@
         </mxCell>
         <mxCell id="D2e03eudcRRNmcST-73G-19" value="ReWOO Pattern&#xa;无观察推理" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontFamily=Monaco;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-57" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2874nEBBf9Qr5I5f5d6N-4" value="langGraph" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;fontFamily=Monaco;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2874nEBBf9Qr5I5f5d6N-5" value="CrewAI" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;fontFamily=Monaco;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-553" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2874nEBBf9Qr5I5f5d6N-6" value="Augtogen" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;fontFamily=Monaco;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-297" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2874nEBBf9Qr5I5f5d6N-7" value="LlamaIndex" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;fontFamily=Monaco;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2874nEBBf9Qr5I5f5d6N-8" value="langChain" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;fontFamily=Monaco;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="430" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
