@@ -52,6 +52,7 @@ pip install ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl
 Basic Usage
 
 test.py
+
 ```python
 from cosyvoice.cli.cosyvoice import CosyVoice, CosyVoice2
 from cosyvoice.utils.file_utils import load_wav
