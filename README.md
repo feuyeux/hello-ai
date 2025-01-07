@@ -4,6 +4,8 @@
 
 <img src="img/Madrona_AI_Models_Market_Map_2023_web_Logo-V4-1.png" alt="Madrona_AI_Models_Market_Map_2023_web_Logo-V4-1" style="width:600px" /><img src="img/Emerging AI Agents Infrastructure.jpg" alt="Emerging AI Agents Infrastructure" style="width:600px" />
 
+<https://www.madrona.com/insights>
+
 ## LLM
 
 |Name|Developer|Release date|
@@ -47,4 +49,3 @@
 
 - local serving
 - visualization
-
