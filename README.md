@@ -8,20 +8,24 @@
 
 ## LLM
 
-|Name|Developer|Release date|
-|:--|:--|:--|
-|GPT-4|OpenAI|March 2023|
-|**Llama** 2|Meta|July 2023|
-|**Gemini** 1.5|Google DeepMind|February 2024|
-|Gemma|Google DeepMind|February 2024|
-|**Claude** 3|Anthropic|March 2024|
-|**Mixtral** 8x7B|Mistral AI|December 2023|
-|**Grok**-1|x.AI|November 2023|
-|**Phi**-2| Microsoft| December 2023|
-|Ernie 3.0 Titan|Baidu|December 2021|
-|PanGu-Σ|Huawei|March 2023|
+https://en.wikipedia.org/wiki/List_of_large_language_models
 
-<https://en.wikipedia.org/wiki/Large_language_model>
+| Name          | Release date  | Developer                                              | Number of parameters (billion) | Corpus size         |
+| :------------ | :------------ | :----------------------------------------------------- | :----------------------------- | :------------------ |
+| GPT-4         | March 2023    | OpenAI                                                 | Unknown                        | Unknown             |
+| Gemini 1.5    | February 2024 | Google DeepMind                                        | Unknown                        | Unknown             |
+| PaLM 2        | May 2023      | Google                                                 | 340                            | 3.6 trillion tokens |
+| Grok-1        | November 2023 | [xAI](https://en.wikipedia.org/wiki/XAI_(company))     | 314                            | Unknown             |
+| Claude 3      | March 2024    | [Anthropic](https://www.anthropic.com/)                | Unknown                        | Unknown             |
+| Mixtral 8x22B | April 2024    | [Mistral AI](https://en.wikipedia.org/wiki/Mistral_AI) | 141                            | Unknown             |
+| Phi-3         | April 2024    | Microsoft                                              | 14                             | 4.8T Tokens         |
+| Llama 3.1     | July 2024     | Meta AI                                                | 405                            | 15.6T tokens        |
+| Qwen2         | June 2024     | Alibaba Cloud                                          | 72                             | 3T Tokens           |
+| DeepSeek V3   | December 2024 | DeepSeek                                               | 671                            | 14.8T tokens        |
+
+https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+
+https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard
 
 ## backgroud
 

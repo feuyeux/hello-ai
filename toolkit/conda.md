@@ -105,7 +105,13 @@ conda info --verbose
 <https://docs.anaconda.com/miniconda/miniconda-install/>
 
 ```sh
-$ bash Miniconda3-py312_24.5.0-0-MacOSX-x86_64.sh
+# https://repo.anaconda.com/miniconda/
+curl https://repo.anaconda.com/miniconda/Miniconda3-py312_24.11.1-0-MacOSX-x86_64.sh -o miniconda.sh
+bash miniconda.sh
+export PATH="/Users/hanl5/miniconda3/bin:$PATH"
+```
+
+```sh
 $ conda info
 
      active environment : base
