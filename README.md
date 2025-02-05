@@ -8,7 +8,7 @@
 
 ## LLM
 
-https://en.wikipedia.org/wiki/List_of_large_language_models
+<https://en.wikipedia.org/wiki/List_of_large_language_models>
 
 | Name          | Release date  | Developer                                              | Number of parameters (billion) | Corpus size         |
 | :------------ | :------------ | :----------------------------------------------------- | :----------------------------- | :------------------ |
@@ -23,9 +23,9 @@ https://en.wikipedia.org/wiki/List_of_large_language_models
 | Qwen2         | June 2024     | Alibaba Cloud                                          | 72                             | 3T Tokens           |
 | DeepSeek V3   | December 2024 | DeepSeek                                               | 671                            | 14.8T tokens        |
 
-https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+<https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard>
 
-https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard
+<https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard>
 
 ## backgroud
 
