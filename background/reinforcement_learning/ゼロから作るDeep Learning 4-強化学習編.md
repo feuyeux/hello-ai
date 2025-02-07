@@ -14,7 +14,47 @@ Colab | Kaggle | Studio Lab
 
 <https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb>
 
-**贝尔曼方程(Bellman Equation)**状态价值
+环境内部拥有**状态**(state)；当智能代理采取某些行动时，环境的状态会发生变化，智能代理会根据状态采取适当的行动
+
+- **奖励**(Reward) $R$
+- **行动**(Action) $A$
+- **行动价值**(action value) Quality $Q$或$q$
+- 期望值 Expectation $\mathbb{E}[A]$
+- 采取某个行动所得到的奖励 $q(A)=\mathbb{E}[R|A=a]$
+
+利用(exploitation) 贪婪行动 玩家将根据以前的经验选择最佳行动。
+探索(exploration) 非贪婪行动 玩家可以对每台老虎机的价值做出更准确的估计。
+
+```mermaid
+graph TD
+    B[智能代理] --> |行动 A t| D[... 环境 ...] 
+    D --> |状态 S t+1| B
+    D --> |奖励 R t| B
+```
+
+马尔可夫决策过程(MDP, Markov Decision Proces)
+
+- 状态迁移：状态如何迁移。
+- 奖励：如何给予奖励。
+- 策略：智能代理如何决定行动。
+
+$f(s,a)$  状态迁移函数(state transition function)
+
+$p(s'|s,a)$ 状态迁移概率(state transition probability)
+
+$r(s,a,s')$ 奖励函数(reward function）
+
+$\pi(a|s)$ 策略(policy) 表示在状态*s*下采取行动*a*的概率
+
+MDP的目标是找到最优策略(optimal policy)
+
+收益(return) 智能代理的目标是使**收益**最大化
+
+收益的期望值 **状态价值函数**(state-value function) $v_\pi(s) = \mathbb{E}_\pi [G_t | S_t = s,\pi]$
+
+**行动价值函数**(action-value function) $q_\pi(s,a) = \mathbb{E}_\pi [G_t | S_t = s, A_t = a]$
+
+**贝尔曼方程(Bellman Equation)** 状态价值
 $$
 \begin{align*}
 v_\pi(s) &= \mathbb{E}_\pi [R_t | S_t = s] + \gamma \mathbb{E}_\pi [G_{t+1} | S_t = s] \\
@@ -74,7 +114,16 @@ $$
 
 **贪婪的策略**指的是在局部的候选者中寻求最优行动。拿现在的例子来说，贝尔曼最优方程只与当前状态($s$)和下一个状态($s'$)相关，只需考虑下一个状态就能选择价值最大的行动。
 
-以下是将内容整理成表格的格式：
+|方法||描述|公式|
+|:--|:--|:--|:--|
+|DP|动态规划(Dynamic Programming)|通过“自举”的方式就能依次更新价值函数|$V'_{\pi}(s) = \sum\limits_{a, s'} \pi(a \mid s) p(s' \mid s, a) \{ r(s, a, s') + \gamma V_{\pi}(s') \}$|
+|MC|蒙特卡洛方法(Monte Carlo method)|无须了解环境相关的知识，使用采样数据就能对价值函数进行更新|$V'_{\pi}(S_t) = V_{\pi}(S_t) + \alpha \left\{ \colorbox{yellow}{G\_t} - V_{\pi}(S_t) \right\}$|
+|TD|时间差分(Temporal Difference)|只使用下一个行动和价值函数来更新当前的价值函数|$V'_{\pi}(S_t) = V{\pi}(S_t) + \alpha \left\{\textcolor{red} {R_t + \gamma V_{\pi}(S_{t+1})} - V_{\pi}(S_t) \right\}$|
+
+目标策略(target policy) 作为评估和改进对象的策略。
+行为策略(behaviour policy) 智能代理实际用来采取行动的策略。
+
+----
 
 | 汉语  | 日语  | 页码 |
 |:----------------------------------------------|:--------------------------------------------|:-----|
