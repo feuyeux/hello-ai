@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from bandit import Agent
+import bandit_avg as Agent
 
 
 class NonStatBandit:
