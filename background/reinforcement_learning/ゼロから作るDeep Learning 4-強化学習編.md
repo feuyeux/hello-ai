@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD036 -->
+<!-- markdownlint-disable MD001 MD036 -->
 
 # ゼロから作るDeep Learning ❹-強化学習編
 
@@ -13,6 +13,8 @@ Deep Learning from Scratch ❹-Reinforcement Learning
 Colab | Kaggle | Studio Lab
 
 <https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb>
+
+#### RL基本概念
 
 环境内部拥有**状态**(state)；当智能代理采取某些行动时，环境的状态会发生变化，智能代理会根据状态采取适当的行动
 
@@ -31,6 +33,8 @@ graph TD
     D --> |状态 S t+1| B
     D --> |奖励 R t| B
 ```
+
+#### MDP
 
 马尔可夫决策过程(MDP, Markov Decision Proces)
 
@@ -53,6 +57,8 @@ MDP的目标是找到最优策略(optimal policy)
 收益的期望值 **状态价值函数**(state-value function) $v_\pi(s) = \mathbb{E}_\pi [G_t | S_t = s,\pi]$
 
 **行动价值函数**(action-value function) $q_\pi(s,a) = \mathbb{E}_\pi [G_t | S_t = s, A_t = a]$
+
+#### 贝尔曼方程
 
 **贝尔曼方程(Bellman Equation)** 状态价值
 $$
@@ -103,7 +109,8 @@ q_*(s, a) &= \sum_{s'} p(s'|s, a) \left\{ r(s, a, s') + \gamma \sum_{a'} \pi^*(a
 \end{align*}
 $$
 
-**最优策略**
+#### 最优策略
+
 $$
 \mu_*(s) = \arg\!\max_a q_*(s, a)
 $$
@@ -120,8 +127,18 @@ $$
 |MC|蒙特卡洛方法(Monte Carlo method)|无须了解环境相关的知识，使用采样数据就能对价值函数进行更新|$V'_{\pi}(S_t) = V_{\pi}(S_t) + \alpha \left\{ \colorbox{yellow}{G\_t} - V_{\pi}(S_t) \right\}$|
 |TD|时间差分(Temporal Difference)|只使用下一个行动和价值函数来更新当前的价值函数|$V'_{\pi}(S_t) = V{\pi}(S_t) + \alpha \left\{\textcolor{red} {R_t + \gamma V_{\pi}(S_{t+1})} - V_{\pi}(S_t) \right\}$|
 
+分布模型(distribution model)
+样本模型(sample model)
+
 目标策略(target policy) 作为评估和改进对象的策略。
 行为策略(behaviour policy) 智能代理实际用来采取行动的策略。
+
+同策略型(on-policy) 目标策略和行为策略相同 基于自己的经验改进自己的策略的做法
+异策略型(off-policy) 目标策略和行为策略不同 基于从其他地方获得的经验改进了自己的策略
+
+重要性采样(importance sampling) 从行为策略获得的样本数据来求目标策略的期望值 —— 利用从其他概率分布中采样的数据来计算某个概率分布的期望值
+
+trajectory  /trə'dʒɛktəri/ 弹道 轨迹
 
 ----
 
